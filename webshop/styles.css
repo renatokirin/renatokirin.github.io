@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(234, 237, 237);
+    margin: 0;
+}
+
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px;
+    background-color: #cd9042;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header__optionBasketIcon {
+    padding: 5px;
+    height: 22px;
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(124deg) brightness(106%) contrast(105%); 
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.header__option {
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.small__header {
+    background-color: #232f3e;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.small__header__option {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;    
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;   
+    
+}
+
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.home__image {  
+    width: 1200px;  
+    z-index: -1;
+    margin-bottom: -490px;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    max-height: 450px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+.product > img {
+    max-height: 360px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.product > button {
+    border: none;
+    background: none;
+    margin-top: 10px;  
+    cursor: pointer;
+    margin-right: auto;
+    padding-left: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #007185;
+}
+
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__info {
+    height: 100px;
+    margin-bottom: 15px;
+    margin-right: auto;
+}
+
+
+.product__heading {
+    max-width: 330px;
+    padding-left: 7px;
+    font-weight: bold;
+    font-size: 24px;
+    background: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 125px, 125px;
+    grid-gap: 5px;
+    max-width: 330px;
+    margin-bottom: 70px;
+    margin-top: -30px;
+    
+
+}
+
+.grid__category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    font-family: 'Libre Franklin', sans-serif;  
+}
+
+.grid__image {
+    margin-bottom: 5px;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+
+
+.back {
+    margin-top: 70px;
+    background-color: #232f3e;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.back__button {
+    padding-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;  
+}
+
+.footer {
+    background-color: #131921;
+    width: auto;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

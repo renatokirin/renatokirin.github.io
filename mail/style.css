@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 8vh;
+    background-color: #f1f3f4;
+    border-bottom: 1px #acacac solid;
+}
+
+header .material-symbols-outlined {
+    color: #404040;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-right: 85px;
+    font-size: 40px;
+    color: rgb(104, 104, 104);
+}
+
+.logo .material-symbols-outlined {
+    margin-right: 10px;
+}
+
+.search {
+    width: 600px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.btn-search {
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+    border: none;
+    padding: 9px;
+    padding-left: 14px;
+    cursor: pointer;    
+}
+
+.btn-advanced-search {
+    background-color: white;
+    border-style: none;
+    border: none;
+    padding: 9px;
+    padding-right: 14px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-right-side {
+    background-color: #f1f3f4;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.btn-right-side:hover {
+    background-color: white;
+}
+
+.support {
+    margin-left: auto;
+}
+
+.account {
+    margin-right: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.mail {
+    background-color: white;
+    padding: 13px;
+    margin: 8px;
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.mail input {
+    height: 17px;
+    width: 17px;
+    margin-right: 15px;
+}
+
+.mail:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input:hover {
+    height: 20px;
+    width: 20px;    
+}
+
+.time {
+    padding-left: 40px;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: small;
+}
+
+.container {
+    overflow: scroll;
+    border-left: 1px solid #acacac;
+    border-right: 1px solid #acacac;
+    background-color: #f1f3f4;
+    height: 92vh;
+    width: 1220px;
+}
+
+.sidebar {
+    padding: 14px;
+    width: 260px;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+}
+.sidebar button:hover {
+    background-color: #f1f3f4;
+}
+
+.h-sidebar {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.line {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.textcontent {
+    color: #5f6368;
+}
+
+.textcontent b {
+    color: black;
+}
+
+.sidebar .material-symbols-outlined {
+    color: rgb(43, 43, 43);
+    font-size: 25px;
+    margin-right: 10px;
+    
+}
+
+.inbox {
+    background-color: #fce8e6 !important;   
+    color: #d93025; 
+}
+.inbox .material-symbols-outlined {
+    color: #d93025;
+}
+
+.btn-compose {
+    margin: 20px;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+    color: #d93025;     
+    width: 150px !important;
+    height: 55px !important;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-compose:hover {
+    box-shadow: 0 4px 5px 4px rgba(0, 0, 0, 0.2);
+    background-color: white !important;
+}
+
+.btn-compose .material-symbols-outlined {
+    color: #d93025; 
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.right-side-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 415px;
+}
+
+.compose-container {
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 30px;
+    background-color: #404040;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.top b:nth-child(2) {
+    margin-left: auto;
+    color: #b3b3b3;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.compose-container input {
+    width: 380px;
+    margin-left: 5px;
+    height: 45px;
+    border: none;
+    font-size: 13px;
+    margin-bottom: 4px;
+    border-bottom: 1px #b3b3b3 solid;
+}
+
+.compose-container input:focus {
+    outline: none;
+}
+
+.message-input input {
+    margin-top: 20px;
+    border-bottom: none;
+}
+
+.message-buttons {
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.send {
+    background-color: #1a73e8;
+    color: white;     
+    width: 90px;
+    height: 35px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;    
+}
+
+.send:hover {
+    background-color: #4285f4;
+}
+
+.trash {
+    color: #404040;
+    background-color: white; 
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;        
+}
+
+.javascript-control {
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.btn-control{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-control .material-symbols-outlined {
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 28px;
+}
