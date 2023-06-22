@@ -230,6 +230,14 @@ section {
     .btn-contact {
         margin: 0;
     }
+
+    .pr-1 {
+        background: url(img/screen1-sm.png) no-repeat center / cover;
+    }
+    
+    .pr-2 {
+        background: url(img/screen2-sm.png) no-repeat center / cover;
+    }    
 }
 
 @media only screen and (max-width: 768px) {
