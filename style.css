@@ -134,6 +134,10 @@ section {
     background: url(img/screen2.png) no-repeat center / cover;
 }
 
+.pr-3 {
+    background: url(img/screen3.png) no-repeat center / cover;
+}
+
 .card {
     width: 50%;
     min-height: 400px;
